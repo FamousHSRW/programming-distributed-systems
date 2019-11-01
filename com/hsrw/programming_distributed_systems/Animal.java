@@ -90,5 +90,9 @@ public class Animal {
 		
 	}
 	
+	public String test() {
+		return "name="+name;
+	}
+	
 
 }

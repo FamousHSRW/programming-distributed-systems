@@ -17,4 +17,8 @@ public class Mammal extends Animal {
 	public void setFood(String food) {
 		this.food = food;
 	}
+	public String create() {
+		String desc = super.test();
+		return desc + "food="+food;
+	}
 }
